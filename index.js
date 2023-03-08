@@ -113,6 +113,6 @@ workspace.addChangeListener(() => {
     editor.setValue(code);
 });
 
-const data = { "blocks": { "languageVersion": 0, "blocks": [{ "type": "text_print", "id": "1", "x": 50, "y": 50, "inputs": { "TEXT": { "shadow": { "type": "text", "id": "2", "fields": { "TEXT": "hello world" } } } } }] } }
+const data = { "blocks": { "languageVersion": 0, "blocks": [{ "type": "text_print", "id": "1", "x": 37, "y": 37, "inputs": { "TEXT": { "shadow": { "type": "text", "id": "2", "fields": { "TEXT": "hello world" } } } } }] } }
 
 Blockly.serialization.workspaces.load(data, workspace);
