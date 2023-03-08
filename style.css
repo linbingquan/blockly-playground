@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+}
+
+#blockly-editor {
+    width: 50vw;
+    height: 100vh;
+}
+
+#monaco-editor {
+    width: 50vw;
+    height: 100vh;
+}
